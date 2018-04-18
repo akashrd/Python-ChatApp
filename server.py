@@ -7,7 +7,7 @@ import time
 ### init ###
 
 s = socket.socket()
-host = socket.gethostname()
+host = "192.168.0.9"
 print(" server will start on host : ", host)
 port = 8080
 s.bind((host,port))
